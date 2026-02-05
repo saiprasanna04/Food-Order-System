@@ -26,7 +26,7 @@ jobs:
 
       - name: Build with Maven
              
-        run:  cd Food-Order-System
+        run:  cd food-order-web
               mvn clean install
 
       - name: Upload artifact for deployment job
@@ -63,4 +63,5 @@ jobs:
           slot-name: 'Production'
           package: '*.war'
           
+
 
